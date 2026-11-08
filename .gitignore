@@ -1,0 +1,12 @@
+.Rhistory
+.RData
+.Rproj.user/
+*.xtc
+*.trr
+*.tpr
+*.cpt
+*.edr
+*.log
+miniconda.sh
+__pycache__/
+.ipynb_checkpoints/
