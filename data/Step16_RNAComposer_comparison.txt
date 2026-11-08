@@ -1,0 +1,23 @@
+=== مقایسه چهارمین مدل مستقل: RNAComposer ===
+
+روش: Fragment-assembly مبتنی بر homology با پایگاه‌داده RNA FRABASE
+زمان اجرا: <1 دقیقه (بسیار سریع‌تر از سایر ابزارها)
+
+یافته کلیدی از گزارش اجرا: دو ناحیه هدف ما (بخش اعظم U-rich loop
+[Loop L1] و کل A-rich tract [SS3p]) هیچ template تجربی PDB نداشتند
+و به‌صورت de novo (بدون homology) ساخته شدند -- تایید مستقل دیگری
+بر این‌که این نواحی در فضای ساختاری شناخته‌شده RNA بی‌سابقه‌اند.
+
+ماتریس RMSD (C1', Å) بین 4 مدل مستقل:
+RhoFold(noMSA) vs RhoFold(withMSA): 11.13
+RhoFold(noMSA) vs trRosettaRNA:     24.46
+RhoFold(withMSA) vs trRosettaRNA:   24.46
+RhoFold(noMSA) vs RNAComposer:      34.80
+RhoFold(withMSA) vs RNAComposer:    34.50
+trRosettaRNA vs RNAComposer:        35.96
+
+نتیجه‌گیری: RNAComposer از هر سه مدل دیگر نیز دورتر است (34.5-36.0 Å).
+عدم توافق کامل بین 4 روش مستقل (deep learning x2، co-evolution،
+fragment-assembly) یک شاهد قوی چهارلایه برای دشواری بنیادی پیش‌بینی
+ساختار این موتیف بدون template تجربی است -- این خود novelty gap
+اصلی پروژه را که در ابتدا مطرح شد، به شکل کمّی تایید می‌کند.

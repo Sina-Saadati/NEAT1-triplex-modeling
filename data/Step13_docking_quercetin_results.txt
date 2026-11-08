@@ -1,0 +1,15 @@
+=== نتایج Docking - Quercetin روی Pocket 2 (MD-refined) ===
+
+بهترین حالت اتصال (Vina): -8.588 kcal/mol
+مقایسه با ΔG تجربی Quercetin-MALAT1 triplex (از Kd=495nM، ITC،
+Rakheja et al. 2022): -8.60 kcal/mol
+اختلاف: 0.01 kcal/mol -- همخوانی فوق‌العاده نزدیک
+
+اهمیت: اعتبارسنجی مستقل کمّی pipeline -- pocket شناسایی‌شده پس از MD
+(نوکلئوتیدهای 86, 88-90 در A-rich tract) از نظر انرژتیک با محدوده
+واقعی و تجربی binding affinity برای یک triplex خویشاوند (MALAT1) سازگار است.
+این نتیجه به‌عنوان positive control مستقل برای کل pipeline پیشنهاد می‌شود.
+
+احتیاط لازم: Quercetin برای MALAT1 (نه NEAT1) و روی ساختار تجربی
+(نه مدل پیش‌بینی‌شده) اندازه‌گیری شده -- تطابق دقیق ممکن است تا حدی
+تصادفی باشد، اما همخوانی order-of-magnitude معنادار و قابل‌ارائه است.

@@ -1,0 +1,14 @@
+=== خلاصه نهایی Docking (AutoDock Vina 1.2.7) روی Pocket 2 (MD-refined) ===
+
+Kanamycin A : -8.861 kcal/mol (بالاترین -- احتمالا مثبت کاذب به دلیل
+               بار/اندازه بزرگ؛ محدودیت شناخته‌شده اسکورینگ کلاسیک با RNA)
+Quercetin   : -8.588 kcal/mol (همخوانی نزدیک با ΔG تجربی=-8.60 
+               kcal/mol از Kd=495nM اندازه‌گیری‌شده برای MALAT1 triplex)
+Caffeine    : -6.771 kcal/mol (کنترل منفی، ضعیف‌ترین -- طبق انتظار)
+
+نتیجه‌گیری: Pocket 2 (نوکلئوتیدهای 86, 88-90، A-rich tract،
+druggability=0.521) قابلیت افتراق بین لیگاندهای عمومی (caffeine)
+و لیگاندهای RNA-specific (quercetin, kanamycin) را نشان می‌دهد.
+Quercetin به‌عنوان معتبرترین benchmark (به دلیل تطابق کمّی با داده
+تجربی مستقل) مطرح می‌شود؛ توصیه می‌شود Kanamycin با scoring
+اختصاصی RNA (مثل RLDOCKScore) در کار آینده بازبینی شود.
