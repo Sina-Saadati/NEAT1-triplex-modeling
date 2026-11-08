@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "NEAT1 ENE+A-rich triplex: structure prediction, MD and pocket analysis"
+authors:
+  - family-names: Saadati
+    given-names: Sina
+  - family-names: Rashtbari
+    given-names: Samaneh
+license: MIT
+repository-code: "https://github.com/Sina-Saadati/NEAT1-triplex-modeling"
