@@ -1,0 +1,12 @@
+name: neat1-triplex
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - gromacs=2021.3
+  - fpocket=4.0.3
+  - fpocketr=1.3.6
+  - pymol-open-source=2.5.0
+  - biopython
