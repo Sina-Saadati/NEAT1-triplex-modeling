@@ -1,0 +1,9 @@
+ggplot2
+dplyr
+patchwork
+ragg
+svglite
+ggseqlogo
+ggtext
+ggrepel
+gridExtra
