@@ -30,8 +30,8 @@ Presented as a poster: *Structural modeling and dynamics of the NEAT1 lncRNA tri
 GROMACS 2021.3 · AMBER parmbsc0+χOL3 for GROMACS ([srnas/ff](https://github.com/srnas/ff)) · RhoFold+ · trRosettaRNA · RNAComposer · ViennaRNA · BLAST+ / MUSCLE · fpocketR 1.3.6 (fpocket 4.0.3) · AutoDock Vina 1.2.7 · R (ggplot2, patchwork)
 
 ## How to reproduce
-1. Run the notebook in `notebooks/` in order.
-2. Run the scripts in `analysis/`, setting `DATA_DIR` at the top of each script to your local data folder.
+1. `notebooks/NEAT1_pipeline_log.ipynb` is the cleaned execution log of the Colab session(s), in the order cells were run (retries and recovery steps after disconnects included). It is not a one-click pipeline; trRosettaRNA and RNAComposer were run on their web servers.
+2. Run the scripts in `analysis/` from the repository root to regenerate the figures from the files in `data/`.
 
 ## Citation
 Saadati, S., Rashtbari, S., et al. Structural modeling and dynamics of the NEAT1 lncRNA triplex reveal a candidate druggable region. Conference poster, 2026.
